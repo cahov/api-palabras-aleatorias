@@ -1,6 +1,6 @@
 # Random Word API
 
-Este proyecto implementa una API para obtener una palabra aleatoria de la categoria objeto o animal, contiene alrededor de 300 palabras y modificando el archivo words.json en la carpeta /files puedes agregar mas.
+Este proyecto implementa una API para obtener una palabra aleatoria de la categoria objeto o animal, contiene alrededor de 300 palabras y modificando el archivo words.json en la carpeta /src/files puedes agregar mas.
 
 ## Instalación
 
