@@ -1,12 +1,13 @@
 # Random Word API
 
-Este proyecto implementa una API para generar palabras aleatorias de diferentes categorías.
+Este proyecto implementa una API para obtener una palabra aleatoria de la categoria objeto o animal, contiene alrededor de 300 palabras y modificando el archivo words.json en la carpeta /src/files puedes agregar mas.
 
 ## Instalación
 
-1. Clona este repositorio en tu máquina local.
+1. Clona este repositorio en tu máquina local o sube a tu servidor.
 2. Instala las dependencias ejecutando el comando `npm install`.
-3. Asegúrate de tener Node.js y npm instalados en tu sistema.
+3. Ejecuta el servidor en modo produccion con `npm start`.
+4. Para iniciar el servidor en modo desarrollo con reinicio automatico (usando nodemon) usa `npm run dev`.
 
 ## Uso
 
@@ -80,6 +81,3 @@ Si deseas contribuir a este proyecto, puedes seguir los siguientes pasos:
 3. Realiza los cambios y mejoras en tu rama.
 4. Envía un pull request para revisar tus cambios.
 
-## Licencia
-
-Este proyecto está bajo la Licencia MIT. Puedes consultar el archivo [LICENSE](./LICENSE) para obtener más información.
