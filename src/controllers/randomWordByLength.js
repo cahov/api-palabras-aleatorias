@@ -3,7 +3,7 @@ const fs = require('fs')
 const randomWordByLength = async (category, length) => {
     try {
       const jsonData = await fs.promises.readFile('./src/files/words.json', 'utf-8');
-      const data = JSON.parse(jsonData);
+      const data = JSON.parse(jsonData)
       let randomWord;
   
       if (category === 'all') {

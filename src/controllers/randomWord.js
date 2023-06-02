@@ -8,11 +8,11 @@ const randomWord = async (category) =>{
         if (category=='all'){
             const allWords = Object.values(data).flat();
             const randomIndex = Math.floor(Math.random() * allWords.length);
-            randomWord = allWords[randomIndex];
+            randomWord = allWords[randomIndex]
         }else{
             const words = data[category]
             const randomIndex = Math.floor(Math.random() * words.length);
-            randomWord = words[randomIndex];
+            randomWord = words[randomIndex]
         }
         return randomWord
     }catch (err){
