@@ -39,7 +39,7 @@ Este proyecto implementa una API para obtener una palabra aleatoria de la catego
   - Descripción: Devuelve una palabra aleatoria de la categoría "objetos" que tenga la longitud especificada.
   - Parámetros:
     - `:len` (entero): Longitud deseada de la palabra.
-  - Ejemplo de uso: `/api/palabra/objeto/5`
+  - Ejemplo de uso: `/api/palabra/objeto/4`
   - Ejemplo de respuesta:
     ```json
     {
@@ -64,7 +64,7 @@ Este proyecto implementa una API para obtener una palabra aleatoria de la catego
   - Descripción: Devuelve una palabra aleatoria de la categoría "animales" que tenga la longitud especificada.
   - Parámetros:
     - `:len` (entero): Longitud deseada de la palabra.
-  - Ejemplo de uso: `/api/palabra/animal/6`
+  - Ejemplo de uso: `/api/palabra/animal/4`
   - Ejemplo de respuesta:
     ```json
     {
