@@ -2,6 +2,8 @@
 
 Este proyecto implementa una API para obtener una palabra aleatoria de la categoria objeto o animal, contiene alrededor de 300 palabras y modificando el archivo words.json en la carpeta /src/files puedes agregar mas.
 
+Puedes probarlo en [este deploy en Railway](https://api-palabras-aleatorias-production.up.railway.app/api/palabra) (no aseguro su disponibilidad indefinida)
+
 ## Instalación
 
 1. Clona este repositorio en tu máquina local o sube a tu servidor.
